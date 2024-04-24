@@ -22,4 +22,12 @@
 .card button{
     position: absolute;
     bottom: 0px;
+    width: 30px;
+    height: 30px;
+    background: fixed;
+    border: 0px;
+}
+.like_icon{
+    width: 30px;
+    height: 30px;
 }

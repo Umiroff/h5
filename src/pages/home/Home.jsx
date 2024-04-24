@@ -17,7 +17,7 @@ function Home() {
     <div className='home'>
         <Navbar/>
         <Hero/>
-        <Products data={data}/>
+        <Products title={'Explore Our Products'} data={data}/>
     </div>
   )
 }

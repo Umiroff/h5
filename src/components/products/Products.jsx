@@ -3,6 +3,7 @@ import { FaRegHeart, FaHeart  } from "react-icons/fa";
 import '../products/Products.css'
 import { useDispatch, useSelector } from 'react-redux';
 import { toggleLiked } from '../../context/likedSlice';
+import { Link } from 'react-router-dom';
 
 
 function Products({data, title}) {
@@ -11,7 +12,9 @@ function Products({data, title}) {
     
 
     let products = data?.map((el) => <div key={el.id} className='card'>
-        <img src={el.thumbnail} alt="" />
+        <Link to={`/product/${el.id}`}>
+                <img src={el.thumbnail} alt="" />
+            </Link>
         <h2>{el.title}</h2>
         <h3>$ {el.price}</h3>
         <button onClick={() => dispatch(toggleLiked(el))}>

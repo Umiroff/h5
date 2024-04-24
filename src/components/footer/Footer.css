@@ -1,0 +1,16 @@
+.footer{
+    width: 1500px;
+    height: 370px;
+    display: flex;
+    background: rgba(0, 0, 0, 1);
+}
+.footer ul{
+    color: white;
+    list-style: none;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 90px;
+}
+.f_titles{
+    font-size: 25px;
+}

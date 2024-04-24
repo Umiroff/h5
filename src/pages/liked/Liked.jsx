@@ -3,6 +3,7 @@ import Navbar from '../../components/navbar/Navbar'
 import '../liked/Liked.css'
 import Products from '../../components/products/Products'
 import { useSelector } from 'react-redux'
+import Footer from '../../components/footer/Footer'
 
 function Liked() {
     let liked = useSelector(state => state.liked.value)
@@ -15,6 +16,7 @@ function Liked() {
         :
         <h2>Empty</h2>
         }
+        <Footer/>
     </div>
     </>
   )

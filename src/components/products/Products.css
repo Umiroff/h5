@@ -1,0 +1,25 @@
+.pro_title{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.products{
+    width: 1300px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: 150px;
+}
+.card{
+    width: 280px;
+    height: 300px;
+    position: relative;
+}
+.card img{
+    width: 280px;
+    height: 200px;
+}
+.card button{
+    position: absolute;
+    bottom: 0px;
+}

@@ -1,0 +1,51 @@
+.hero{
+    width: 1500px;
+    height: 350px;
+    display: flex;
+    gap: 150px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.hero ul{
+    font-size: 20px;
+    list-style: none;
+    line-height: 39px;
+}
+.hero_main{
+    width: 900px;
+    height: 350px;
+    background: rgba(0, 0, 0, 1);
+    position: relative;
+}
+.hero_main_apple{
+    position: absolute;
+    top: 50px;
+    left: 60px;
+}
+.hero_main_back{
+    position: absolute;
+    right: 0px;
+    top: 20px;
+}
+.hero_main p{
+    position: absolute;
+    top: 70px;
+    left: 130px;
+    font-size: 18px;
+    color: rgba(250, 250, 250, 1);
+}
+.hero_main h2{
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    width: 250px;
+    top: 130px;
+    left: 60px;
+}
+.hero_main a{
+    color: white;
+    position: absolute;
+    left: 60px;
+    bottom: 50px;
+    font-size: 18px;
+}

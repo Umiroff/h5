@@ -1,0 +1,91 @@
+.nav{
+    width: 1500px;
+    height: 150px;
+    border-bottom: 1px solid rgb(173, 173, 173);
+}
+.nav_top{
+    width: 100%;
+    height: 50px;
+    background: black;
+    position: relative;
+}
+.nav_top select{
+    background: fixed;
+    border: 0px;
+    color: white;
+    position: absolute;
+    right: 150px;
+    top: 15px;
+}
+.nav_top select option{
+    color: black;
+}
+.nav_top p{
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    left: 450px;
+    top: 15px;
+}
+.nav_top a{
+    color: white;
+    position: absolute;
+    right: 560px;
+    top: 12px;
+}
+
+.nav_main{
+    width: 1200px;
+    height: 40px;
+    margin-left: 150px;
+    margin-top: 40px;
+    position: relative;
+}
+.nav_main h2{
+    font-size: 24px;
+    position: absolute;
+    top: 5px;
+}
+.nav_main ul{
+    position: absolute;
+    top: 10px;
+    left: 300px;
+    display: flex;
+    gap: 50px;
+    font-size: 16px;
+    list-style: none;
+}
+.nav_main form{
+    position: absolute;
+    right: 100px;
+    width: 250px;
+    height: 40px;
+    background: rgb(190, 190, 190);
+}
+.nav_main form input{
+    width: 200px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background: fixed;
+    border: 0px;
+    color: black;
+}
+.nav_icon1{
+    width: 20px;
+    height: 20px;
+}
+.nav_icon2{
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+}
+.nav_icon3{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+}

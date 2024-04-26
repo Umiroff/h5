@@ -1,0 +1,73 @@
+.cart{
+    width: 1500px;
+    margin: 0 auto;
+}
+.carts{
+    width: 1200px;
+    margin: 150px;
+    position: relative;
+}
+.cart1{
+    width: 1200px;
+    height: 150px;
+    border: 1px solid;
+    position: relative;
+}
+.cart1_img{
+    width: 170px;
+    height: 150px;
+}
+.cart1 h3{
+    position: absolute;
+    top: 55px;
+    left: 500px;
+}
+.cart1 h2{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.cart1_btnplus{
+    position: absolute;
+    right: 260px;
+    top: 50px;
+    background: fixed;
+    width: 30px;
+    height: 30px;
+    font-size: 28px;
+}
+.cart1_btnminus{
+    position: absolute;
+    right: 325px;
+    top: 50px;
+    background: fixed;
+    width: 30px;
+    height: 30px;
+    font-size: 28px;
+}
+.cart1_btntrash{
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    background: fixed;
+    width: 30px;
+    height: 30px;
+    border: 0px;
+}
+.trashicn{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.clearbtn{
+    cursor: pointer;
+    position: absolute;
+    left: 500px;
+    width: 250px;
+    height: 50px;
+    background: rgba(219, 68, 68, 1);
+    color: white;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 10px;
+}

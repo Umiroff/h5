@@ -5,6 +5,7 @@ import Hero from '../../components/hero/Hero'
 import Products from '../../components/products/Products'
 import axios from '../../api'
 import Footer from '../../components/footer/Footer'
+import Banner from '../../components/banner/Banner'
 
 function Home() {
   const [data, setData] = useState([])
@@ -18,7 +19,8 @@ function Home() {
     <div className='home'>
         <Navbar/>
         <Hero/>
-        <Products title={'Explore Our Products'} data={data}/>
+        <Banner/>
+        <Products count={8} title={'Explore Our Products'} data={data}/>
         <Footer/>
     </div>
   )

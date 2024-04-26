@@ -1,37 +1,86 @@
-.pro_title{
+.pro{
+    width: 1300px;
+    height: 950px;
     margin-left: 150px;
     margin-top: 50px;
+    position: relative;
+}
+.pro_title{
+    position: absolute;
+    top: 60px;
 }
 .products{
+    position: absolute;
+    top: 150px;
     width: 1300px;
     height: auto;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    margin-left: 150px;
 }
 .card{
     width: 280px;
-    height: 310px;
+    height: 320px;
     position: relative;
 }
-.card img{
+.card_img{
     width: 280px;
-    height: 200px;
+    height: 230px;
 }
-.card button{
+.card_likebtn{
     position: absolute;
-    bottom: 0px;
-    width: 30px;
-    height: 30px;
-    background: fixed;
+    right: 20px;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+    background: white;
     border: 0px;
+    border-radius: 10px;
 }
 .like_icon{
     cursor: pointer;
     width: 30px;
     height: 30px;
 }
-.like_icon:hover {
-    transform: scale(1.5);
+.card h2{
+    font-size: 18px;
+    position: absolute;
+    bottom: 50px;
+}
+.card h3{
+    position: absolute;
+    bottom: 5px;
+}
+.card_stars{
+    position: absolute;
+    left: 70px;
+    bottom: 8px;
+}
+.pro_view{
+    position: absolute;
+    left: 500px;
+    bottom: 40px;
+    width: 250px;
+    height: 50px;
+    background: rgba(219, 68, 68, 1);
+    color: white;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 10px;
+}
+.card_cartbtn{
+    display: none;
+}
+.card:hover .card_cartbtn{
+    display: block;
+    cursor: pointer;
+    width: 280px;
+    height: 40px;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 1);
+    color: white;
+    position: absolute;
+    top: 190px;
+    left: 0px;
+    border: 0px;
 }

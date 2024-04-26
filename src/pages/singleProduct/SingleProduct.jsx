@@ -10,6 +10,11 @@ const API_URL = 'https://dummyjson.com/products'
 function SingleProduct() {
     const [product, setProduct] = useState([])
     const id = useParams();
+    
+    useEffect(() => {
+      window.scrollTo(0,0)
+    },[])
+
       useEffect(() => {
         axios
         .get(`${API_URL}/${id.id}`)

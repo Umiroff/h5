@@ -35,7 +35,9 @@ function Navbar() {
             <Link to={'/favorites'}>
                 <FaRegHeart className='nav_icon2'/>
             </Link>
+            <Link to={'/cart'}>
             <FiShoppingCart className='nav_icon3'/>
+            </Link>
         </div>
     </div>
     </>
